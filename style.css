@@ -1,0 +1,23 @@
+body{
+    margin: 5% 15%; 
+   
+}
+th, td{
+    padding: 2%;
+    width: 20%;
+    border: solid 1px gray
+}
+table{
+    width: 100%;   
+}
+legend{
+    margin-top: 2%;
+}
+button{
+    margin-top: 1%;
+    padding: 0.5%;
+}
+i{
+    width: 30px;
+    height: 30px;
+}

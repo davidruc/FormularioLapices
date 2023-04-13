@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/c3cd11032a.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <form>
+    <form id="form">
         <fieldset>
             <legend>Clase Lapiz</legend>
             <label>Color</label>
             <input type="color" name="color"><br>
             <label>Dimension</label>
-            <input type="range" name="dimension"><br>
+            <input type="range" name="dimension" min="1" max="30"><br>
+            <p>Value: <output id="value"></output></p>
             <fieldset>
                 <legend>Marca</legend>
                 <input type="radio" name="marca" value="Mongo"><label>Mongo</label><br>
@@ -32,11 +36,12 @@
                 <input type="radio" name="material" value="Madera"><label>Madera</label><br>
                 <input type="radio" name="material" value="Goma"><label>Goma</label><br>
             </fieldset>
-            <input type="submit" value="Enviar">
+            <button type="submit"><i class="fa-sharp fa-solid fa-check-to-slot"></i></button>
+            
         </fieldset>
     </form>
     <br><br><br>
-    <table border="solid">
+    <table>
         <thead>
             <tr>
                 <th>Color</th>

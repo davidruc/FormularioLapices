@@ -4,6 +4,6 @@ class lapiz{
         Color = "fff",
         Dimension = 19,
         Marca = "norma",
-        
+        Borrador ="Tiene"
     })
 }
